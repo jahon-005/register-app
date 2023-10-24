@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.input-forms{
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    background: linear-gradient(purple,blueviolet);
+    overflow: hidden;
+}
+.sign{
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-shadow: 0 0 30px red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(221, 213, 213);
+    overflow: hidden;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-family: cursive;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+    background-color: #bd2426;
+    font-size: 15px;
+    border: 1px solid wheat;
+    font-family: cursive;
+    margin-left: 75px;
+}
+button:active{
+    transform: scale(0.94);
+}
+@media (max-width: 480px){
+    .sign{
+        font-size: 40px;
+    }
+    input{
+        width: 100%;
+        height: 50px;
+    }
+    .input-forms{
+        width: 350px;
+        height: 400px;
+    }
+    button{
+        width: 150px;
+    }
+    .about{
+        width: 300px;
+        height: 400px;
+    }
+    .circle{
+        width: 120px;
+        height: 120px;
+    }
+    #names{
+        font-size: 30px;
+    }
+    #passwords{
+        font-size: 25px;
+    }
+    #emails{
+        font-size: 20px;
+    }
+
+}
+.about{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 0 105px 1px rgb(105, 101, 101);
+    border-radius: 15px;
+    padding: 10px;
+    display: none;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background: url(./IMG_20210721_211927_880.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+#names{
+    font-size: 40px;
+    color: rgb(91, 86, 86);
+    text-shadow: 0 0 50px red;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+#passwords{
+    font-size: 30px;
+    color: rgb(91, 86, 86);
+    text-shadow: 0 0 50px red;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+#emails{
+    font-size: 25px;
+    color: rgb(91, 86, 86);
+    text-shadow: 0 0 50px red;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
